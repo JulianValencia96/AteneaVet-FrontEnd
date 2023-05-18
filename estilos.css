@@ -1,0 +1,16 @@
+img{
+    width: 100px;
+    height: 100px;
+}
+
+
+.slogan{
+    align-items: flex-end;
+}
+
+@media (max-width:960px){
+    .slogan, .slogan h3{
+        align-items:center;
+        text-align: center;
+    }
+}
